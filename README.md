@@ -1,7 +1,4 @@
-
-
-# Define the content for a visually striking and interactive GitHub Profile README
-readme_content = """# 👋 Hi, I'm [tushar]!
+# 👋 Hi, I'm [tushar ]!
 ### 🚀 Passionate Full-Stack Developer & Tech Enthusiast
 
 <div align="center">
@@ -22,9 +19,13 @@ readme_content = """# 👋 Hi, I'm [tushar]!
 ### 🛠️ My Tech Stack & Skills
 
 <p align="left">
+  <!-- Frontend -->
   <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js%20%7C%20TS-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="Frontend" />
+  <!-- Backend -->
   <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express%20%7C%20Python-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend" />
+  <!-- Database -->
   <img src="https://img.shields.io/badge/Database-PostgreSQL%20%7C%20MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="Database" />
+  <!-- DevOps -->
   <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20AWS%20%7C%20CI%2FCD-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="DevOps" />
 </p>
 
@@ -95,11 +96,3 @@ readme_content = """# 👋 Hi, I'm [tushar]!
 </p>
 
 ⚡ *Crafted with ❤️ and Markdown.*
-"""
-
-
-file_path = 'README.md'
-with open(file_path, 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print(f"File successfully generated at {file_path}")
