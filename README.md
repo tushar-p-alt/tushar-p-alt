@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [tushar ]!
+# 👋 Hi, I'm tushar!
 ### 🚀 Passionate Full-Stack Developer & Tech Enthusiast
 
 <div align="center">
